@@ -3,31 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <title>Portifolio</title>
 </head>
 <body>
     <main>
         <header id="aboutMe">
-            <img src="/img/profile.jpeg" alt="João Oliveira">
-            <h1>About me</h1>
+            
+                <img src="/img/profile.jpeg" alt="João Oliveira" height="300px">
+            
+            <div>
+                <h1>About me</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Facilis adipisci ut consectetur impedit veritatis, voluptatibus dolores maxime.
              Animi cupiditate fugiat odit rem distinctio perferendis delectus. Inventore eveniet deserunt
              dolores qui.</p>
-             <nav>
-                <div></div>
-                <div></div>
+             <nav id="profileLinks">
+                <div><a href="https://github.com/Jaoovit">
+                    <i class='fa fa-github'></i></a></div>
+                <div><a href="https://linkedin.com/in/joão-vitor-oliveira-205498198"><i class="fa fa-linkedin-square"></i></a></div>
              </nav>
+            </div>
         </header>
         <section id="myWork">
             <h1>My work</h1>
             <div id="projectsList">
-                <div id="project"></div>
-                <div id="project"></div>
-                <div id="project"></div>
-                <div id="project"></div>
-                <div id="project"></div>
-                <div id="project"></div>
+                <div id="project">
+                    <img src="/img/example.jpg" alt="project 1">
+                    <div id="title">
+                        <h3>Project Example</h3>
+                        <nav>
+                            <div><a href="">
+                                <i class='fa fa-github'></i></a></div>
+                            <div><a href=""><i class="fa fa-external-link"></i></a></div>
+                        </nav>
+                    </div>
+                    <p>Short description of the project. Just a couple sentences will do.</p>
+                </div>
+                <div id="project">
+                    <img src="/img/example.jpg" alt="project 1">
+                    <div id="title">
+                        <h3>Project Example</h3>
+                        <nav>
+                            <div><a href="">
+                                <i class='fa fa-github'></i></a></div>
+                            <div><a href=""><i class="fa fa-external-link"></i></a></div>
+                        </nav>
+                    </div>
+                    <p>Short description of the project. Just a couple sentences will do.</p>
+                </div>
             </div>
         </section>
     </main>
@@ -47,7 +71,6 @@
             <div></div>
             <div></div>
         </div>
-        <img src="/img/profile.jpeg" alt="João Oliveira">
     </footer>
 </body>
 </html>
