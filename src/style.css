@@ -32,6 +32,14 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    max-width: 250px;
+}
+
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a {
